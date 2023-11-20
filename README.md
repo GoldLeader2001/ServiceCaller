@@ -2,7 +2,7 @@
 
 # OVERVIEW
 
-A web app that users can use to call local or popular businesses. This was built using a Java Spring Backend to act as an API that handled all of the necessary logic excluding the authentication. The frontend is a React app built from the ground up using Material-UI v5 as the primary decorator. The actual calling is done using Twilio's API to create a call between the user's phone and the services phone.
+A web app that users can use to call local or popular businesses. This was built using a Java Spring Backend to act as an API that handled all of the connections to the call service and to the MongoDB database. The frontend is a React app built from the ground up using Material-UI v5 as the primary decorator. The actual calling is done using Twilio's API to create a call between the user's phone and the services phone. The backend is deployed using GCP's Cloud Run service, the frontend is being hosted by Firebase, and I am using MongoDB Atlas for my cloud database.
 
 # HOW TO (User Side)
 
